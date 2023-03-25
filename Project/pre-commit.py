@@ -63,7 +63,7 @@ def make_table_row(folder):
     return '| ' + ' | '.join(parts) + ' |\n'
 
 
-def create_readme():
+def make_readme():
     table = table_header
     for folder in sorted(root.iterdir()):
         if not folder.is_dir() or folder.name in excluded_folders:
@@ -76,4 +76,4 @@ def create_readme():
 
 
 rename_files()
-create_readme()
+make_readme()
