@@ -17,8 +17,21 @@ This repo and all the printables are [MIT Licensed](/LICENSE.md), meaning you ca
 you provide attribution (a link to [github.com/blaketyro/printables](https://github.com/blaketyro/printables)
 suffices).
 
-Please, save and print them and use them in your classrooms and workplaces and for personal edification. I make
-them for fun as a hobby and that's exactly what I want to see happen!
+Please, use them in your classrooms and workplaces and for personal instruction. I make
+them for fun as a hobby and that's exactly what I want to see!
+
+### Inspiration
+
+Computer science is my favorite field of study. There are endless topics to learn about and you get to be very exacting.
+The problem is there are _too_ many things to learn about and remember, so I started making little cheat-sheet word
+documents to help me memorize important computer science topics. Then I realized I could make better diagrams using my
+skills as a former vector graphics artist, and thought I may as well make them public while I'm at it.
+
+I wanted them to be printable (and not just webpages) since anything printable can work fine as a webpage, but not
+always vice versa.
+
+They are intentionally mostly black and white since not everyone has a color printer or can even see colors.
+It also just makes the design easier and faster.
 
 ### Project Structure
 
@@ -42,19 +55,6 @@ giving 9 final files for each printable.
 
 A pre-commit hook runs [pre-commit.py](/Project/pre-commit.py) to create this readme with the table above, and improve
 the names Affinity Designer gives the files.
-
-### Inspiration
-
-Computer science is my favorite field of study. There are endless topics to learn about and you get to be very exacting.
-The problem is there are _too_ many things to learn about and remember, so I started making little cheat-sheet word
-documents to help me memorize important computer science topics. Then I realized I could make better diagrams using my
-skills as a former vector graphics artist, and thought I may as well make them public while I'm at it.
-
-I wanted them to be printable (and not just webpages) since anything printable can work fine as a webpage, but not
-always vice versa.
-
-They are intentionally mostly black and white since not everyone has a color printer or can even see colors.
-It also just makes the design easier and faster.
 
 ### Issues
 
