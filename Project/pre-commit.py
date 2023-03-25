@@ -65,7 +65,7 @@ def make_table_row(folder):
 
 def create_readme():
     table = table_header
-    for folder in root.iterdir():
+    for folder in sorted(root.iterdir()):
         if not folder.is_dir() or folder.name in excluded_folders:
             continue
         table += make_table_row(folder)
