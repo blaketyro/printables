@@ -26,5 +26,5 @@ for folder in root.iterdir():
             if file.name.endswith(suffix):
                 new_file = file.with_name(prefix + suffix)
                 print(f'Renaming {file.name} to {new_file.name}')
-                # file.rename(new_file)
+                file.rename(new_file)
                 break
