@@ -1,9 +1,11 @@
 # [Printables](https://github.com/blaketyro/printables)
 
-Free, educational computer science posters on ready to print or link in a variety of sizes and formats.
+A collection of free, educational, computer science posters, ready to link or print in a variety of sizes and formats.
 
-Test image:
+<!-- markdownlint-disable MD033 -->
 
-| Letter                                           | A4                                           | 24x36" Poster                                   |
-| ------------------------------------------------ | -------------------------------------------- | ----------------------------------------------- |
-| ![uml arrows](/UML_Arrows/UML_Arrows_Letter.png) | ![uml arrows](/UML_Arrows/UML_Arrows_A4.png) | [**Poster**](/UML_Arrows/UML_Arrows_Poster.png) |
+| Topic                                                                  | Letter Size (8.5in&times;11in)                                                                                                                                                                                                                  | A4 Size (210mm&times;297mm)                                                                                                                                                                                                  | Poster Size (24in&times;36in)                                                                                                                        |
+| ---------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **UML Arrows** <br> ([source](/UML_Arrows/UML_Arrows_Source.afdesign)) | [![UML Arrows](/UML_Arrows/UML_Arrows_Letter.png)](/UML_Arrows/UML_Arrows_Letter.pdf) <br> **[PDF](/UML_Arrows/UML_Arrows_Letter.pdf)&nbsp;&nbsp;[PNG](/UML_Arrows/UML_Arrows_Letter.png)&nbsp;&nbsp;[SVG](/UML_Arrows/UML_Arrows_Letter.svg)** | [![uml arrows](/UML_Arrows/UML_Arrows_A4.png)](/UML_Arrows/UML_Arrows_A4.pdf) <br> **[PDF](/UML_Arrows/UML_Arrows_A4.pdf)&nbsp;&nbsp;[PNG](/UML_Arrows/UML_Arrows_A4_.png)&nbsp;&nbsp;[SVG](/UML_Arrows/UML_Arrows_A4.svg)** | **[PDF](/UML_Arrows/UML_Arrows_Poster.pdf)&nbsp;&nbsp;[PNG](/UML_Arrows/UML_Arrows_Poster.png)&nbsp;&nbsp;[SVG](/UML_Arrows/UML_Arrows_Poster.svg)** |
+
+(todo: automata table creation)
