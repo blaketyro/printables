@@ -57,7 +57,7 @@ def make_table_row(folder):
     slug, name = folder.name, folder.name.replace('_', ' ')
     topic = f'**{name}** <br> ([folder](/Project/{slug}))'
     letter = make_table_cell(folder, "Letter")
-    a4 = make_table_cell(folder, "A4")
+    a4 = make_table_cell(folder, "A4", False)
     poster = make_table_cell(folder, "Poster", False)
     parts = [topic, letter, a4, poster]
     return '| ' + ' | '.join(parts) + ' |\n'
