@@ -46,10 +46,11 @@ def raw_link(slug, size, ext):
 def make_table_cell(folder, size, image=True):
     slug, name = folder.name, folder.name.replace('_', ' ')
     png = raw_link(slug, size, "png")
-    pdf = raw_link(slug, size, "pdf")
+    pdf_download = raw_link(slug, size, "pdf")
+    pdf_view = f'https://github.com/blaketyro/printables/blob/main/Project/{slug}/{slug}_{size}.pdf'
     svg = raw_link(slug, size, "svg")
     cell = f'[![{name}]({png})]({png}) <br> ' if image else ''
-    cell += f'**[PDF]({pdf})&nbsp;&nbsp;[PNG]({png})&nbsp;&nbsp;[SVG]({svg})**'
+    cell += f'**[View PDF]({pdf_view})&nbsp;&nbsp;[Save PDF]({pdf_download})&nbsp;&nbsp;[PNG]({png})&nbsp;&nbsp;[SVG]({svg})**'
     return cell
 
 
