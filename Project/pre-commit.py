@@ -50,7 +50,7 @@ def make_table_cell(folder, size, image=True):
     pdf_view = f'https://github.com/blaketyro/printables/blob/main/Project/{slug}/{slug}_{size}.pdf'
     svg = raw_link(slug, size, "svg")
     cell = f'[![{name}]({png})]({png}) <br> ' if image else ''
-    cell += f'**[PDF🔽]({pdf_download})&nbsp;&nbsp;[PDF👀]({pdf_view})&nbsp; [PNG👀]({png})&nbsp;&nbsp;[SVG👀]({svg})**'
+    cell += f'**[SAVE]({pdf_download})&nbsp;[PDF]({pdf_view})&nbsp;[PNG]({png})&nbsp;[SVG]({svg})**'
     return cell
 
 
