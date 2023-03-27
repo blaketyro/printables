@@ -50,7 +50,7 @@ def make_table_cell(folder, size, image=True):
     pdf_view = f'https://github.com/blaketyro/printables/blob/main/Project/{slug}/{slug}_{size}.pdf'
     svg = raw_link(slug, size, "svg")
     cell = f'[![{name}]({png})]({png}) <br> ' if image else ''
-    cell += f'**[View PDF]({pdf_view})&nbsp;&nbsp;[Save PDF]({pdf_download})&nbsp;&nbsp;[PNG]({png})&nbsp;&nbsp;[SVG]({svg})**'
+    cell += f'*[🔽&nbsp;PDF]({pdf_download})&nbsp;&nbsp;[PDF]({pdf_view})&nbsp; [PNG]({png})&nbsp;&nbsp;[SVG]({svg})**'
     return cell
 
 
@@ -73,7 +73,7 @@ def make_readme():
 
     text = (root / 'readme-template.md').read_text()
     text = text.replace('{{TABLE}}', table.strip())
-    (root.parent / 'README.md').write_text(text)
+    (root.parent / 'README.md').write_text(text, 'utf-8')
 
 
 rename_files()
